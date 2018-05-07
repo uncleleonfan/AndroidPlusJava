@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/question_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Question"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/avatar"/>
+
+
+
+    <TextView
+            android:id="@+id/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_title"
+            android:layout_marginTop="10dp"
+            android:maxLines="5"
+            android:minLines="1"
+            android:ellipsize="end"
+            android:text="Answer"/>
+
+
+    <TextView
+        android:id="@+id/favour_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_thumb_up"
+        android:drawablePadding="8dp"
+        android:layout_below="@id/answer"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/primary_light"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/comment_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/favour_count"
+        android:layout_toRightOf="@id/favour_count"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/ic_comment"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/primary_light"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/publish_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="发布时间"
+        android:textColor="@color/primary_light"/>
+
+
+</RelativeLayout>

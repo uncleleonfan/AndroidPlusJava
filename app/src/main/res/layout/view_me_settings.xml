@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:showIn="@layout/fragment_me">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/feedback"
+            style="@style/MeTextStyle"
+            android:text="@string/feedback"/>
+
+        <View
+            style="@style/MeDividerStyle">
+        </View>
+
+        <Button
+            android:id="@+id/settings"
+            style="@style/MeTextStyle"
+            android:text="@string/settings"/>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

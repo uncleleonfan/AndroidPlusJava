@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/article_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:background="@null"
+            android:padding="8dp"
+            android:textCursorDrawable="@drawable/cursor_drawable"/>
+
+        <EditText
+            android:id="@+id/article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:background="@null"
+            android:padding="8dp"
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:hint="@string/input_article_title"/>
+
+        <EditText
+            android:id="@+id/article_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:background="@null"
+            android:padding="8dp"
+            android:textCursorDrawable="@drawable/cursor_drawable"
+            android:hint="@string/input_article_description"
+            android:inputType="textMultiLine"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tag"
+            android:layout_marginTop="12dp"/>
+
+        <com.leon.androidplus.widget.TagLayout
+            android:id="@+id/tag_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+        </com.leon.androidplus.widget.TagLayout>
+
+    </LinearLayout>
+
+</ScrollView>

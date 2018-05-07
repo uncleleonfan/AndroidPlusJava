@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_category">
+        <item>Question</item>
+        <item>Hot</item>
+        <item>Dynamic</item>
+    </string-array>
+
+    <string-array name="answer_category">
+        <item>Recent</item>
+        <item>Hot</item>
+    </string-array>
+
+    <string-array name="article_category">
+        <item>Hot</item>
+        <item>Thinking</item>
+        <item>Project</item>
+        <item>SDK</item>
+        <item>Kotlin</item>
+        <item>Custom View</item>
+        <item>Third Party</item>
+        <item>Interview</item>
+    </string-array>
+
+
+    <string-array name="article_category_without_hot">
+        <item>Thinking</item>
+        <item>Project</item>
+        <item>SDK</item>
+        <item>Kotlin</item>
+        <item>Custom View</item>
+        <item>Third Party</item>
+        <item>Interview</item>
+    </string-array>
+
+</resources>

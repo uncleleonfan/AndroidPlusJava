@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    tools:showIn="@layout/fragment_me">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/user_favour_articles"
+            style="@style/MeTextStyle"
+            android:text="@string/my_favour_articles"/>
+
+        <View
+            style="@style/MeDividerStyle">
+        </View>
+
+        <Button
+            android:id="@+id/user_favour_questions"
+            style="@style/MeTextStyle"
+            android:text="@string/my_favour_questions"/>
+
+        <View
+            style="@style/MeDividerStyle">
+        </View>
+
+        <Button
+            android:id="@+id/user_favour_answers"
+            style="@style/MeTextStyle"
+            android:text="@string/my_favour_answers"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

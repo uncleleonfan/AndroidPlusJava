@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <EditText
+                android:id="@+id/question_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:background="@null"
+                android:padding="8dp"
+                android:textCursorDrawable="@drawable/cursor_drawable"
+                android:hint="@string/input_question_title"/>
+
+            <EditText
+                android:id="@+id/question_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:background="@null"
+                android:padding="8dp"
+                android:textCursorDrawable="@drawable/cursor_drawable"
+                android:hint="@string/input_question_description"
+                android:inputType="textMultiLine"
+                android:imeOptions="actionDone"
+                android:imeActionLabel="@string/publish"/>
+
+    </LinearLayout>
+</ScrollView>

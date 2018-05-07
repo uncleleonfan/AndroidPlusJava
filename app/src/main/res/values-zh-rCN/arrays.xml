@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_category">
+        <item>问题</item>
+        <item>热门</item>
+        <item>动态</item>
+    </string-array>
+    <string-array name="answer_category">
+        <item>最新</item>
+        <item>最热</item>
+    </string-array>
+
+    <string-array name="article_category">
+        <item>热门</item>
+        <item>思考</item>
+        <item>项目</item>
+        <item>SDK</item>
+        <item>Kotlin</item>
+        <item>自定义控件</item>
+        <item>第三方</item>
+        <item>面试</item>
+    </string-array>
+
+
+    <string-array name="article_category_without_hot">
+        <item>思考</item>
+        <item>项目</item>
+        <item>SDK</item>
+        <item>Kotlin</item>
+        <item>自定义控件</item>
+        <item>第三方</item>
+        <item>面试</item>
+    </string-array>
+
+</resources>
