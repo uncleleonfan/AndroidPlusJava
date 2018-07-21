@@ -63,6 +63,7 @@ AndroidPlus的架构采用MVP + Dagger + LeanCloud。使用MVP将程序划分层
 
 ### 分享文章（ShareArticleActivity）
 当用户在其他应用中读到精彩Android开发的文章时，可以点击分享按钮，在弹出的应用列表中选择AdroidPlus（应用名Android+），跳转到分享界面ShareArticleActivity。在ShareArticleActivity中，文章的URL自动填写出来，文章的标题和描述需要用户自行输入，然后还必须给文章选定一个标签，才能够发布文章。
+
 ![](img/share1.jpg)![](img/share2.jpg)
 
 ### 文章界面（ArticleFragment）
