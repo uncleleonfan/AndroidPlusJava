@@ -1,4 +1,4 @@
-![](img/book.jpg)
+![](img/demo.gif)
 ## 简介
 AndroidPlus为《Android应用开发进阶》实战项目，分为Java版和Kotlin版。AndroidPlus是安卓开发者的“自留地”，为安卓开发者提供专属的技术问答和知识分享平台。在AndroidPlus上，可以提出在安卓开发过程中遇到的任何问题，可以热心回答其他开发者的疑问，另外还可以分享阅读过的优秀干货文章。
 
@@ -98,3 +98,6 @@ AndroidPlus的架构采用MVP + Dagger + LeanCloud。使用MVP将程序划分层
 更多详细内容请查阅[《Android应用开发进阶》](https://item.jd.com/12347729.html)，另外，欢迎各位朋友加入QQ群，交流项目学习。
 
 ![](img/group.png)
+
+
+![](img/book.jpg)
