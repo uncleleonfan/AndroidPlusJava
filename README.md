@@ -24,14 +24,20 @@ AndroidPlus的架构采用MVP + Dagger + LeanCloud。使用MVP将程序划分层
 ![](img/add_question.jpg)
 
 *  问题界面（QuestionFragment）
+
 添加问题成功后，在LeanCloud后台就存在问题数据了，接下来就可以使用QuestionFragment来展示这些数据。问题列表条目进行了模块化封装，为一个QuestionItemView：
 
 ![](img/question_item.jpg)
 
 *  热门界面 (HotQuestionFragment)
 
+热门界面根据用户对问题收藏次数进行排序展示。
+
 ![](img/hot_fragment.jpg)
+
 * 动态界面 (DynamicFragment)
+
+动态界面展示最新被回答的问题列表
 
 ![](img/dynamic.jpg)
 
@@ -88,6 +94,6 @@ AndroidPlus的架构采用MVP + Dagger + LeanCloud。使用MVP将程序划分层
 ![](img/profile.jpg)
 
 ## 交流
-更多内容请查阅[《Android应用开发进阶》](https://item.jd.com/12347729.html)，另外，欢迎各位朋友加入QQ群，交流项目学习。
+更多详细内容请查阅[《Android应用开发进阶》](https://item.jd.com/12347729.html)，另外，欢迎各位朋友加入QQ群，交流项目学习。
 
 ![](img/group.png)
